@@ -1,6 +1,6 @@
 <section id="portfolio">
     <div class="container" >
-        <h2><strong>Portfolio</strong></h2>
+        <h2><strong>Projects</strong></h2>
         <span class="bar-title mb-5"></span>
         <div class="row">
 
@@ -56,11 +56,11 @@
                         <br>
 
                         <div class="d-flex flex-row justify-content-center">
-                            <a href="https://github.com" target="_blank" type="button" class="btn btn-primary mr-3">Code Source</a>
+                            <!-- <a href="https://github.com" target="_blank" type="button" class="btn btn-primary mr-3">Code Source</a> -->
                             <button (click)="detailOnClick('mauticMonitoring')"  type="button" class="btn btn-primary">Project Detail</button>
                         </div>
                         <div *ngIf="mauticMonitoringIsShown" class="mt-3">
-                            <p>A Student roster console application written in C++</p>
+                            <p>A Student roster console application written in C++.</p>
                             <p>The program contains two classes (i.e., Student and Roster). It maintains a current roster of students within a given course. Student data for the program includes student ID, first name, last name, email address, age, an array of the number of days to complete each course, and degree program. It iterates through a list of five students and uses function calls to manipulate data. The entire student list is stored in one array and data is displayed to the console.<br>
                         </div>
                     </div>
@@ -90,9 +90,13 @@
                         </div>
 
                         <div *ngIf="portfolioIsShown" class="mt-3">
-                            <p>This is my portfolio. I built it to showcase skills, projects, and interests, etc.
+                            <p>This is my portfolio. I built it to showcase skills, projects, and interests, etc. I intend for it to be under a constant state of change as my skills change.
+                              <br>
                               <br>
                               Deployed to Heroku: <a href="https://matthew-riney.herokuapp.com/">Portfolio</a>
+                              <br>
+                              Deployed to Firebase: <a href="https://matthew-riney.firebaseapp.com/">Portfolio</a>
+
 
                          </p>
                         </div>
