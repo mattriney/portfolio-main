@@ -242,7 +242,7 @@ function EducationComponent_p_66_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Provide high-level technical support to an automated pharmacy on a ongoing basis.");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "br");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " Install, troubleshoot and repair automated processes to include: database, networking, PLC programming, electronic, and electrical controls. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " Install, troubleshoot and repair automated processes to include: database, networking, applications, PLC programming, electronic, and electrical controls. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
 class EducationComponent {
@@ -1087,7 +1087,7 @@ function ProjectsComponent_div_54_Template(rf, ctx) { if (rf & 1) {
 function ProjectsComponent_div_77_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "This is my portfolio. I built it to showcase skills, projects, and interests, etc. I intend for it to be under a constant state of change as my skills change. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "This is my portfolio. I built it to showcase skills, projects, and interests, etc. I intend for it to be under a constant state of change and growth. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "br");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "br");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " Deployed to Heroku: ");
