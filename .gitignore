@@ -107,3 +107,6 @@ dist/my-portfolio/main.js.map
 dist/
 *.firebase/
 *.cache
+dist/my-portfolio/main.js.map
+dist/my-portfolio/main.js
+*.cache
