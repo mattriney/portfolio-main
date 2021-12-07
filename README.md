@@ -1,6 +1,6 @@
 # MyPortfolio
 
-This is my portfolio. I built it to showcase skills, projects, and interests, etc. I intend for it to be under a constant state of change as my skills change.
+This is my portfolio. I built it to showcase skills, projects, interests, etc. I intend for it to be under a constant state of change as my skills change.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
 
