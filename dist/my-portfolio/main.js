@@ -1050,20 +1050,20 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function ProjectsComponent_div_31_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 30);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "A simple single page todo app. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "br");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "br");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " Deployed to Heroku: ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "a", 33);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "a", 31);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Todo app");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
-function ProjectsComponent_div_54_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 32);
+function ProjectsComponent_div_52_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 30);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "A Student roster console application written in C++.");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1073,19 +1073,19 @@ function ProjectsComponent_div_54_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
-function ProjectsComponent_div_75_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 32);
+function ProjectsComponent_div_73_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 30);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "This is my portfolio. I built it to showcase skills, projects, and interests, etc. I intend for it to be under a constant state of change and growth and to grow and change as my skills do. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "br");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "br");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " Deployed to Heroku: ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "a", 34);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "a", 32);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Portfolio");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "br");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " Deployed to Firebase: ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "a", 35);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "a", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Portfolio");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1096,47 +1096,25 @@ const _c1 = function () { return { backgroundImage: "url(assets/images/roster_fu
 const _c2 = function () { return { backgroundImage: "url(assets/images/portfolio_1.jpg)" }; };
 class ProjectsComponent {
     constructor() {
-        this.teamTravelerIsShown = false;
-        this.mauticMonitoringIsShown = false;
+        this.toDoAppIsShown = false;
+        this.studentRosterIsShown = false;
         this.portfolioIsShown = false;
-        this.pokedexIsShown = false;
-        this.riddleIsShown = false;
     }
     detailOnClick(project) {
-        if (project == "teamTraveler") {
-            this.teamTravelerIsShown = !this.teamTravelerIsShown;
-            this.mauticMonitoringIsShown = false;
+        if (project == "toDoApp") {
+            this.toDoAppIsShown = !this.toDoAppIsShown;
+            this.studentRosterIsShown = false;
             this.portfolioIsShown = false;
-            this.pokedexIsShown = false;
-            this.riddleIsShown = false;
         }
-        else if (project == "mauticMonitoring") {
-            this.mauticMonitoringIsShown = !this.mauticMonitoringIsShown;
-            this.teamTravelerIsShown = false;
+        else if (project == "studentRoster") {
+            this.studentRosterIsShown = !this.studentRosterIsShown;
+            this.toDoAppIsShown = false;
             this.portfolioIsShown = false;
-            this.pokedexIsShown = false;
-            this.riddleIsShown = false;
         }
         else if (project == "portfolio") {
             this.portfolioIsShown = !this.portfolioIsShown;
-            this.teamTravelerIsShown = false;
-            this.mauticMonitoringIsShown = false;
-            this.pokedexIsShown = false;
-            this.riddleIsShown = false;
-        }
-        else if (project == "pokedex") {
-            this.pokedexIsShown = !this.pokedexIsShown;
-            this.teamTravelerIsShown = false;
-            this.mauticMonitoringIsShown = false;
-            this.portfolioIsShown = false;
-            this.riddleIsShown = false;
-        }
-        else if (project == "riddleIsShown") {
-            this.riddleIsShown = !this.riddleIsShown;
-            this.teamTravelerIsShown = false;
-            this.mauticMonitoringIsShown = false;
-            this.portfolioIsShown = false;
-            this.pokedexIsShown = false;
+            this.toDoAppIsShown = false;
+            this.studentRosterIsShown = false;
         }
     }
     onMouse(idLink, idImage) {
@@ -1157,16 +1135,14 @@ class ProjectsComponent {
     }
     ngOnInit() {
         this.onMouse("portfolio-link", "portfolio-img");
-        this.onMouse("teamTraveler-link", "teamTraveler-img");
-        this.onMouse("mautic-link", "mautic-img");
-        this.onMouse("pokedex-link", "pokedex-img");
-        this.onMouse("riddle-link", "riddle-img");
+        this.onMouse("toDoApp-link", "toDoApp-img");
+        this.onMouse("roster-link", "roster-img");
         this.venobox = $('.venobox');
         this.venobox.venobox();
     }
 }
 ProjectsComponent.ɵfac = function ProjectsComponent_Factory(t) { return new (t || ProjectsComponent)(); };
-ProjectsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectsComponent, selectors: [["app-projects"]], decls: 76, vars: 9, consts: [["id", "portfolio"], [1, "container"], [1, "bar-title", "mb-5"], [1, "row"], ["data-aos", "flip-up", 1, "col-lg-4", "col-sm-12"], [1, "card", "shadow-lg", "p-3", "mb-5", "bg-white", "rounded"], [1, "card-header", "d-flex", "flex-column", 2, "height", "300px", "width", "100%"], ["id", "teamTraveler-img", 1, "img-wrap", 2, "height", "300px", "width", "100%", 3, "ngStyle"], ["id", "teamTraveler-link", 1, "links", "mt-auto", "d-flex", "justify-content-center"], ["href", "assets/images/Todo_app.jpg", "data-gall", "teamTravelerGallery", "title", "Todo Application", 1, "venobox", "vbox-item"], [1, "bx", "bx-zoom-in", "bx-md"], ["href", "assets/images/Todo_app.jpg", "data-gall", "teamTravelerGallery", "title", "D\u00E9tail du voyage", 1, "venobox", "vbox-item"], ["href", "assets/images/Todo_app.jpg", "data-gall", "teamTravelerGallery", "title", "Mes Logements", 1, "venobox", "vbox-item"], [1, "card-body"], [1, "card-title"], [1, "card-text"], [1, "d-flex", "flex-row", "justify-content-center"], ["href", "https://github.com/mattriney/Todo-app", "target", "_blank", "target", "_blank", "type", "button", 1, "btn", "btn-primary", "mr-3"], ["type", "button", 1, "btn", "btn-primary", 3, "click"], ["class", "mt-3", 4, "ngIf"], ["id", "mautic-img", 1, "img-wrap", 2, "height", "300px", "width", "100%", 3, "ngStyle"], ["id", "mautic-link", 1, "links", "mt-auto", "d-flex", "justify-content-center"], ["href", "assets/images/roster_function.jpg", "data-gall", "MauticGallery", "title", "Student Roster", 1, "venobox", "vbox-item"], ["href", "assets/images/roster_function.jpg", "data-gall", "MauticGallery", "title", "D\u00E9tail de la compagne", 1, "venobox", "vbox-item"], ["href", "assets/images/roster_function.jpg", "data-gall", "MauticGallery", "title", "Performance d'un \u00E9mail", 1, "venobox", "vbox-item"], ["href", "assets/images/roster_function.jpg", "data-gall", "MauticGallery", "title", "Performance d'un Asset", 1, "venobox", "vbox-item"], [1, "card", "shadow-lg", "p-3", "bg-white", "rounded"], ["id", "pokedex-img", 1, "img-wrap", 2, "height", "300px", "width", "100%", 3, "ngStyle"], ["id", "pokedex-link", 1, "links", "mt-auto", "d-flex", "justify-content-center"], ["href", "assets/images/portfolio_1.jpg", "data-gall", "pokedexGallery", "title", "Portfolio", 1, "venobox", "vbox-item"], ["href", "assets/images/portfolio_2.jpg", "data-gall", "pokedexGallery", "title", "Trainers", 1, "venobox", "vbox-item"], ["href", "assets/images/portfolio_3.jpg", "data-gall", "pokedexGallery", "title", "Profile", 1, "venobox", "vbox-item"], [1, "mt-3"], ["href", "https://todo-app-mr.herokuapp.com/"], ["href", "https://matthew-riney.herokuapp.com/"], ["href", "https://matthew-riney.firebaseapp.com/"]], template: function ProjectsComponent_Template(rf, ctx) { if (rf & 1) {
+ProjectsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectsComponent, selectors: [["app-projects"]], decls: 74, vars: 9, consts: [["id", "portfolio"], [1, "container"], [1, "bar-title", "mb-5"], [1, "row"], ["data-aos", "flip-up", 1, "col-lg-4", "col-sm-12"], [1, "card", "shadow-lg", "p-3", "mb-5", "bg-white", "rounded"], [1, "card-header", "d-flex", "flex-column", 2, "height", "300px", "width", "100%"], ["id", "toDoApp-img", 1, "img-wrap", 2, "height", "300px", "width", "100%", 3, "ngStyle"], ["id", "toDoApp-link", 1, "links", "mt-auto", "d-flex", "justify-content-center"], ["href", "assets/images/Todo_app.jpg", "data-gall", "toDoAppGallery", "title", "Todo Application", 1, "venobox", "vbox-item"], [1, "bx", "bx-zoom-in", "bx-md"], ["href", "assets/images/Todo_app.jpg", "data-gall", "toDoAppGallery", "title", "D\u00E9tail du voyage", 1, "venobox", "vbox-item"], ["href", "assets/images/Todo_app.jpg", "data-gall", "toDoAppGallery", "title", "Mes Logements", 1, "venobox", "vbox-item"], [1, "card-body"], [1, "card-title"], [1, "card-text"], [1, "d-flex", "flex-row", "justify-content-center"], ["href", "https://github.com/mattriney/Todo-app", "target", "_blank", "target", "_blank", "type", "button", 1, "btn", "btn-primary", "mr-3"], ["type", "button", 1, "btn", "btn-primary", 3, "click"], ["class", "mt-3", 4, "ngIf"], ["id", "roster-img", 1, "img-wrap", 2, "height", "300px", "width", "100%", 3, "ngStyle"], ["id", "roster-link", 1, "links", "mt-auto", "d-flex", "justify-content-center"], ["href", "assets/images/roster_function.jpg", "data-gall", "StudentRosterGallery", "title", "Student Roster", 1, "venobox", "vbox-item"], ["href", "assets/images/roster_function.jpg", "data-gall", "StudentRosterGallery", "title", "D\u00E9tail de la compagne", 1, "venobox", "vbox-item"], [1, "card", "shadow-lg", "p-3", "bg-white", "rounded"], ["id", "portfolio-img", 1, "img-wrap", 2, "height", "300px", "width", "100%", 3, "ngStyle"], ["id", "portfolio-link", 1, "links", "mt-auto", "d-flex", "justify-content-center"], ["href", "assets/images/portfolio_1.jpg", "data-gall", "portfolioGallery", "title", "Portfolio", 1, "venobox", "vbox-item"], ["href", "assets/images/portfolio_2.jpg", "data-gall", "portfolioGallery", "title", "Trainers", 1, "venobox", "vbox-item"], ["href", "assets/images/portfolio_3.jpg", "data-gall", "portfolioGallery", "title", "Profile", 1, "venobox", "vbox-item"], [1, "mt-3"], ["href", "https://todo-app-mr.herokuapp.com/"], ["href", "https://matthew-riney.herokuapp.com/"], ["href", "https://matthew-riney.firebaseapp.com/"]], template: function ProjectsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h2");
@@ -1207,7 +1183,7 @@ ProjectsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "Code Source");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "button", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ProjectsComponent_Template_button_click_29_listener() { return ctx.detailOnClick("teamTraveler"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ProjectsComponent_Template_button_click_29_listener() { return ctx.detailOnClick("toDoApp"); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Project Detail");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1224,64 +1200,62 @@ ProjectsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](38, "i", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](39, "a", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](40, "a", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](41, "a", 25);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "h3", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "Student Roster");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "div", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "h3", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, "Student Roster");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "h5", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "Technologies:");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "p", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "C++");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](50, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "div", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "button", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ProjectsComponent_Template_button_click_52_listener() { return ctx.detailOnClick("mauticMonitoring"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, "Project Detail");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "h5", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "Technologies:");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](54, ProjectsComponent_div_54_Template, 6, 0, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "p", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "C++");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](48, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "div", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "button", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ProjectsComponent_Template_button_click_50_listener() { return ctx.detailOnClick("studentRoster"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, "Project Detail");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](52, ProjectsComponent_div_52_Template, 6, 0, "div", 19);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "div", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](58, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "div", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "a", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](61, "i", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "div", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](56, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "div", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "a", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](59, "i", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](62, "a", 30);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](63, "a", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "div", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "h3", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, "Portfolio");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "h5", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, "Technologies:");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](60, "a", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](61, "a", 29);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "p", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](71, "Angular 11, Html5, CSS, TypeScript, BootStrap");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "div", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "h3", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](64, "Portfolio");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "div", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "button", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ProjectsComponent_Template_button_click_73_listener() { return ctx.detailOnClick("portfolio"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](74, "Project Detail");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "h5", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "Technologies:");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](75, ProjectsComponent_div_75_Template, 12, 0, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "p", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, "Angular 11, Html5, CSS, TypeScript, BootStrap");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "div", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "button", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ProjectsComponent_Template_button_click_71_listener() { return ctx.detailOnClick("portfolio"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](72, "Project Detail");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](73, ProjectsComponent_div_73_Template, 12, 0, "div", 19);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1292,11 +1266,11 @@ ProjectsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](10);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](6, _c0));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.teamTravelerIsShown);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.toDoAppIsShown);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](7, _c1));
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.mauticMonitoringIsShown);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.studentRosterIsShown);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](8, _c2));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](17);
