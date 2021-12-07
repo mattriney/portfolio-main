@@ -110,3 +110,5 @@ dist/
 dist/my-portfolio/main.js.map
 dist/my-portfolio/main.js
 *.cache
+dist/my-portfolio/main.js
+dist/my-portfolio/main.js.map
