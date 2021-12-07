@@ -7,7 +7,6 @@ import { AboutComponent } from './about/about.component';
 import { EducationComponent } from './education/education.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { CompetencesComponent } from './competences/competences.component';
-import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 import { ReferencesComponent } from './references/references.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
@@ -21,7 +20,6 @@ import { HomeComponent } from './home/home.component';
     EducationComponent,
     ProjectsComponent,
     CompetencesComponent,
-    ContactComponent,
     HeaderComponent,
     ReferencesComponent,
     HomeComponent
