@@ -7,12 +7,12 @@
             <div class="col-lg-4 col-sm-12 " data-aos="flip-up">
                 <div class="card shadow-lg p-3 mb-5 bg-white rounded">
                     <div  class="card-header d-flex flex-column " style="height: 300px;width: 100%; "  >
-                        <div id="teamTraveler-img" class="img-wrap" style="height: 300px;width: 100%;  " [ngStyle]="{backgroundImage:'url(assets/images/Todo_app.jpg)'}" >
+                        <div id="toDoApp-img" class="img-wrap" style="height: 300px;width: 100%;  " [ngStyle]="{backgroundImage:'url(assets/images/Todo_app.jpg)'}" >
                         </div>
-                        <div id="teamTraveler-link" class="links mt-auto d-flex justify-content-center">
-                            <a href="assets/images/Todo_app.jpg" data-gall="teamTravelerGallery" class="venobox vbox-item" title="Todo Application"><i class="bx bx-zoom-in bx-md"></i></a>
-                            <a href="assets/images/Todo_app.jpg" data-gall="teamTravelerGallery" class="venobox vbox-item" title="Détail du voyage"></a>
-                            <a href="assets/images/Todo_app.jpg" data-gall="teamTravelerGallery" class="venobox vbox-item" title="Mes Logements"></a>
+                        <div id="toDoApp-link" class="links mt-auto d-flex justify-content-center">
+                            <a href="assets/images/Todo_app.jpg" data-gall="toDoAppGallery" class="venobox vbox-item" title="Todo Application"><i class="bx bx-zoom-in bx-md"></i></a>
+                            <a href="assets/images/Todo_app.jpg" data-gall="toDoAppGallery" class="venobox vbox-item" title="Détail du voyage"></a>
+                            <a href="assets/images/Todo_app.jpg" data-gall="toDoAppGallery" class="venobox vbox-item" title="Mes Logements"></a>
                         </div>
                     </div>
 
@@ -23,9 +23,9 @@
                               </p>
                             <div class="d-flex flex-row justify-content-center">
                                 <a href="https://github.com/mattriney/Todo-app" target="_blank" target="_blank" type="button" class="btn btn-primary mr-3">Code Source</a>
-                                <button (click)="detailOnClick('teamTraveler')" type="button" class="btn btn-primary">Project Detail</button>
+                                <button (click)="detailOnClick('toDoApp')" type="button" class="btn btn-primary">Project Detail</button>
                             </div>
-                            <div *ngIf="teamTravelerIsShown" class="mt-3">
+                            <div *ngIf="toDoAppIsShown" class="mt-3">
                                 <p>A simple single page todo app. <br><br>
                                   Deployed to Heroku:
                                   <a href="https://todo-app-mr.herokuapp.com/">Todo app</a>
@@ -38,14 +38,13 @@
                 <div class="card shadow-lg p-3 mb-5 bg-white rounded">
 
                     <div  class="card-header d-flex flex-column " style="height: 300px;width: 100%; "  >
-                        <div  id="mautic-img" class="img-wrap" style="height: 300px;width: 100%;  " [ngStyle]="{backgroundImage:'url(assets/images/roster_function.jpg)'}" >
+                        <div  id="roster-img" class="img-wrap" style="height: 300px;width: 100%;  " [ngStyle]="{backgroundImage:'url(assets/images/roster_function.jpg)'}" >
 
                         </div>
-                        <div id="mautic-link" class="links mt-auto d-flex justify-content-center">
-                            <a href="assets/images/roster_function.jpg" data-gall="MauticGallery" class="venobox vbox-item" title="Student Roster"><i class="bx bx-zoom-in bx-md"></i></a>
-                            <a href="assets/images/roster_function.jpg" data-gall="MauticGallery" class="venobox vbox-item" title="Détail de la compagne"></a>
-                            <a href="assets/images/roster_function.jpg" data-gall="MauticGallery" class="venobox vbox-item" title="Performance d'un émail"></a>
-                            <a href="assets/images/roster_function.jpg" data-gall="MauticGallery" class="venobox vbox-item" title="Performance d'un Asset"></a>
+                        <div id="roster-link" class="links mt-auto d-flex justify-content-center">
+                            <a href="assets/images/roster_function.jpg" data-gall="StudentRosterGallery" class="venobox vbox-item" title="Student Roster"><i class="bx bx-zoom-in bx-md"></i></a>
+                            <a href="assets/images/roster_function.jpg" data-gall="StudentRosterGallery" class="venobox vbox-item" title="Détail de la compagne"></a>
+
 
                         </div>
                     </div>
@@ -57,9 +56,9 @@
 
                         <div class="d-flex flex-row justify-content-center">
                             <!-- <a href="https://github.com" target="_blank" type="button" class="btn btn-primary mr-3">Code Source</a> -->
-                            <button (click)="detailOnClick('mauticMonitoring')"  type="button" class="btn btn-primary">Project Detail</button>
+                            <button (click)="detailOnClick('studentRoster')"  type="button" class="btn btn-primary">Project Detail</button>
                         </div>
-                        <div *ngIf="mauticMonitoringIsShown" class="mt-3">
+                        <div *ngIf="studentRosterIsShown" class="mt-3">
                             <p>A Student roster console application written in C++.</p>
                             <p>The program contains two classes (i.e., Student and Roster). It maintains a current roster of students within a given course. Student data for the program includes student ID, first name, last name, email address, age, an array of the number of days to complete each course, and degree program. It iterates through a list of five students and uses function calls to manipulate data. The entire student list is stored in one array and data is displayed to the console.<br>
                         </div>
@@ -69,13 +68,13 @@
             <div class="col-lg-4 col-sm-12"  data-aos="flip-up">
                 <div class="card shadow-lg p-3  bg-white rounded">
                     <div  class="card-header d-flex flex-column " style="height: 300px;width: 100%; "  >
-                        <div id="pokedex-img" class="img-wrap" style="height: 300px;width: 100%;  " [ngStyle]="{backgroundImage:'url(assets/images/portfolio_1.jpg)'}" >
+                        <div id="portfolio-img" class="img-wrap" style="height: 300px;width: 100%;  " [ngStyle]="{backgroundImage:'url(assets/images/portfolio_1.jpg)'}" >
 
                         </div>
-                        <div id="pokedex-link" class="links mt-auto d-flex justify-content-center">
-                            <a href="assets/images/portfolio_1.jpg" data-gall="pokedexGallery" class="venobox vbox-item" title="Portfolio"><i class="bx bx-zoom-in bx-md"></i></a>
-                            <a href="assets/images/portfolio_2.jpg" data-gall="pokedexGallery" class="venobox vbox-item" title="Trainers"></a>
-                            <a href="assets/images/portfolio_3.jpg" data-gall="pokedexGallery" class="venobox vbox-item" title="Profile"></a>
+                        <div id="portfolio-link" class="links mt-auto d-flex justify-content-center">
+                            <a href="assets/images/portfolio_1.jpg" data-gall="portfolioGallery" class="venobox vbox-item" title="Portfolio"><i class="bx bx-zoom-in bx-md"></i></a>
+                            <a href="assets/images/portfolio_2.jpg" data-gall="portfolioGallery" class="venobox vbox-item" title="Trainers"></a>
+                            <a href="assets/images/portfolio_3.jpg" data-gall="portfolioGallery" class="venobox vbox-item" title="Profile"></a>
                         </div>
                     </div>
 
