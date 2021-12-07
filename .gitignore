@@ -105,4 +105,5 @@ dist/my-portfolio/main.js.map
 dist/my-portfolio/main.js
 dist/my-portfolio/main.js.map
 dist/
-.firebase/*
+*.firebase/
+*.cache
