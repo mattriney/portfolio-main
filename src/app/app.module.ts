@@ -8,7 +8,6 @@ import { EducationComponent } from './education/education.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { CompetencesComponent } from './competences/competences.component';
 import { HeaderComponent } from './header/header.component';
-import { ReferencesComponent } from './references/references.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HomeComponent } from './home/home.component';
 
@@ -21,7 +20,6 @@ import { HomeComponent } from './home/home.component';
     ProjectsComponent,
     CompetencesComponent,
     HeaderComponent,
-    ReferencesComponent,
     HomeComponent
   ],
   imports: [
