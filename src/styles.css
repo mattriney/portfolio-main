@@ -14,3 +14,8 @@ h2{
     color: rgb(22, 59, 90);
 }
 html{scroll-behavior: smooth;}
+h1 {
+  display: block;
+  font-size: 4em;
+
+}
