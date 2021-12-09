@@ -13,7 +13,8 @@
     display: block;
 }
 h1{
-    color: #fff; 
+    color: #fff;
+    font-size: 4em;
 }
 #home p span {
     color: #fff;
