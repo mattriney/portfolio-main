@@ -9,15 +9,15 @@ import * as awesom from '@fortawesome/free-solid-svg-icons';
 
 })
 export class EducationComponent implements OnInit {
-  expressScriptsengiIsShown : boolean = false;
   expressScriptsadvIsShown : boolean = false;
+  expressScriptsengIsShown : boolean = false;
   codefiIsShown:boolean = false;
   detailOnClick(id:String) {
-    if(id=="expressScriptsengi_detail"){
-     this.expressScriptsengiIsShown = !this.expressScriptsengiIsShown;
+    if(id=="expressScriptsadv_detail"){
+     this.expressScriptsadvIsShown = !this.expressScriptsadvIsShown;
     }
-    else if(id=="expressScriptsadv_detail"){
-      this.expressScriptsadvIsShown = !this.expressScriptsadvIsShown;
+    else if(id=="expressScriptsengi_detail"){
+      this.expressScriptsengIsShown = !this.expressScriptsengIsShown;
     }
     else if(id=="codefi_detail"){
       this.codefiIsShown = !this.codefiIsShown;
