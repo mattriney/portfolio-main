@@ -9,6 +9,7 @@ export class ProjectsComponent implements OnInit {
   toDoAppIsShown : boolean=false;
   studentRosterIsShown : boolean=false;
   portfolioIsShown : boolean=false;
+  weatherappIsShown : boolean=false;
   venobox:any;
   constructor() { }
   detailOnClick(project:String){
@@ -26,6 +27,12 @@ export class ProjectsComponent implements OnInit {
       this.portfolioIsShown = !this.portfolioIsShown;
       this.toDoAppIsShown=false;
       this.studentRosterIsShown =false;
+    }
+    else if(project=="weatherapp"){
+      this.weatherappIsShown = !this.weatherappIsShown;
+      this.toDoAppIsShown=false;
+      this.studentRosterIsShown =false;
+      this.portfolioIsShown=false;
     }
 
 
@@ -54,6 +61,7 @@ export class ProjectsComponent implements OnInit {
    this.onMouse("portfolio-link","portfolio-img");
    this.onMouse("toDoApp-link","toDoApp-img");
    this.onMouse("roster-link","roster-img");
+   this.onMouse("weatherapp-link","weatherapp-img");
    this.venobox=$('.venobox');
    this.venobox.venobox();
 
