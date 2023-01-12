@@ -1,94 +1,131 @@
 <section id="cv">
-    <div class="container">
-        <h2><strong>Education and Experience</strong></h2>
-        <span class="bar-title mb-5"></span>
-        <div class="row">
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                <h4><strong>Education</strong></h4>
+  <div class="container">
+    <h2><strong>Education and Experience</strong></h2>
+    <span class="bar-title mb-5"></span>
+    <div class="row">
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <h4><strong>Education</strong></h4>
 
-                <ul class="timeline">
-                    <li>
-                        <h5><strong>Bachelor of Science</strong> </h5>
-                        <em class="font-italic">Software Development <br> Western Governors University</em>
-                        <p class="year p-2 d-flex justify-content-center">2020-2022 (est. grad)</p>
-                    </li>
-                    <li>
-                      <h5>CompTIA Project+ Certification</h5>
-                  </li>
-                  <li>
-                    <h5>CompTIA A+ Certification</h5>
-                </li>
-                <li>
-                  <h5>ITILV4 Foundation Certification</h5>
+        <ul class="timeline">
+          <li>
+            <h5><strong>Bachelor of Science</strong></h5>
+            <em class="font-italic"
+              >Software Development <br />
+              Western Governors University</em
+            >
+            <p class="year p-2 d-flex justify-content-center">
+              2020-2022 (est. grad)
+            </p>
+          </li>
+          <li>
+            <h5>CompTIA Project+ Certification</h5>
+          </li>
+          <li>
+            <h5>CompTIA A+ Certification</h5>
+          </li>
+          <li>
+            <h5>ITILV4 Foundation Certification</h5>
+          </li>
+          <li>
+            <h5>Associate of Applied Science</h5>
+            <em class="font-italic"
+              >Robotics and Automation Technology <br />
+              Jefferson College</em
+            >
+            <p class="year p-2 d-flex justify-content-center">2007-2009</p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <h4><strong>Experience</strong></h4>
+        <ul class="timeline">
+          <li>
+            <h5>Student Web Developer</h5>
+            <em>CodeFi - Code Labs - Cape Girardeau, MO</em>
+            <div class="d-flex flex-row">
+              <p class="year p-2 d-flex justify-content-center">
+                Sep 2021 - July 2022
+              </p>
+              <button
+                (click)="detailOnClick('codefi_detail')"
+                type="button"
+                class="btn btn-primary"
+              >
+                + Detail
+              </button>
+            </div>
+            <p *ngIf="codefiIsShown">
+              <strong>Front-end Web Development: </strong>Developing single page
+              applications with the Angular framework.<br />
+
+              <strong>Technologies:</strong> Angular, Bootstrap, Javascript,
+              CSS, npm<br />
+
+              <strong>Back-end Web Development: </strong>Full-Stack Rails
+              development.
+            </p>
+          </li>
+          <li>
+            <h5>Automation Engineer Advisor</h5>
+            <em>Express Scripts - Saint Louis, MO</em>
+            <div class="d-flex flex-row">
+              <p class="year p-2 d-flex justify-content-center">
+                Feb 2022 - current
+              </p>
+              <button
+                (click)="detailOnClick('expressScriptsadv_detail')"
+                type="button"
+                class="btn btn-primary"
+              >
+                + Detail
+              </button>
+            </div>
+            <p *ngIf="expressScriptsadvIsShown">
+              <li>
+                End-to-end project management and ownership of automation
+                products and projects. Working with all types of enterprise
+                systems and automation.
               </li>
-                    <li>
-                        <h5>Associate of Applied Science</h5>
-                        <em class="font-italic">Robotics and Automation Technology <br> Jefferson College</em>
-                        <p class="year p-2 d-flex justify-content-center">2007-2009</p>
-                    </li>
-                </ul>
+              <br />
+              <li>
+                Cooperate diligently with other IT team members to plan, design,
+                and develop smart solutions.
+              </li>
+              <br />
+              <li>
+                Provide subject matter expertise and support for all pharmacy
+                automation processes.
+              </li>
+            </p>
+          </li>
+          <li>
+            <h5>Automation Engineer</h5>
+            <em>Express Scripts - Saint Louis, MO</em>
+            <div class="d-flex flex-row">
+              <p class="year p-2 d-flex justify-content-center">
+                Dec 2017 - Feb 2022
+              </p>
+              <button
+                (click)="detailOnClick('expressScriptsengi_detail')"
+                type="button"
+                class="btn btn-primary"
+              >
+                + Detail
+              </button>
             </div>
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-
-                <h4><strong>Experience</strong></h4>
-                <ul class="timeline">
-                    <li>
-                        <h5>Student Web Developer </h5>
-                        <em>CodeFi - Code Labs - Cape Girardeau, MO</em>
-                        <div class="d-flex flex-row">
-                            <p class="year p-2 d-flex justify-content-center">Sep 2021 - Current</p>
-                            <button (click)="detailOnClick('codefi_detail')" type="button" class="btn btn-primary">+
-                                Detail</button>
-                        </div>
-                        <p *ngIf="codefiIsShown">
-
-                            <strong>Front-end Web Development: </strong>Developing single page applications with the Angular framework.<br>
-
-                            <strong>Technologies:</strong> Angular, Bootstrap, Javascript, CSS, npm<br>
-
-                            <strong>Back-end Web Development: </strong>Full-Stack Rails development.
-
-
-                        </p>
-                    </li>
-                    <li>
-                        <h5>Automation Engineer Advisor</h5>
-                        <em>Express Scripts - Saint Louis, MO</em>
-                        <div class="d-flex flex-row">
-                            <p class="year p-2 d-flex justify-content-center">Feb 2022 - current</p>
-                            <button (click)="detailOnClick('expressScriptsadv_detail')" type="button" class="btn btn-primary">+
-                                Detail</button>
-                        </div>
-                        <p *ngIf="expressScriptsadvIsShown">
-                            <li>End-to-end project management and ownership of automation products and projects. Working with all types of enterprise systems and automation.</li>
-                            <br>
-                            <li>Cooperate diligently with other IT team members to plan, design, and develop smart solutions.</li>
-                            <br>
-                            <li>Provide subject matter expertise and support for all pharmacy automation processes.</li>
-
-                        </p>
-                    </li>
-                    <li>
-                      <h5>Automation Engineer</h5>
-                      <em>Express Scripts - Saint Louis, MO</em>
-                      <div class="d-flex flex-row">
-                          <p class="year p-2 d-flex justify-content-center">Dec 2017 - Feb 2022</p>
-                          <button (click)="detailOnClick('expressScriptsengi_detail')" type="button" class="btn btn-primary">+
-                              Detail</button>
-                      </div>
-                      <p *ngIf="expressScriptsengIsShown">
-                          <li>Provide high-level technical support to an automated pharmacy on a ongoing basis.</li>
-                          <br>
-                          Install, troubleshoot and repair automated processes to include: database, networking, applications, PLC programming, electronic, and electrical controls.
-
-                      </p>
-                  </li>
-                </ul>
-            </div>
-
-
-            </div>
-
-        </div>
-
+            <p *ngIf="expressScriptsengIsShown">
+              <li>
+                Provide high-level technical support to an automated pharmacy on
+                a ongoing basis.
+              </li>
+              <br />
+              Install, troubleshoot and repair automated processes to include:
+              database, networking, applications, PLC programming, electronic,
+              and electrical controls.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
